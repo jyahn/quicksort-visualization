@@ -6,4 +6,4 @@ Drawn with p5.js library
 
 ## Screenshots
 
-![Alt text](/qs-lomuto.gif "Demo-gif")
+![Alt text](/qs-lomuto.gif "Demo")
