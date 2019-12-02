@@ -1,8 +1,8 @@
 # Quicksort Visualization
 
-An animated visualization of the quicksort algorithm implemented using Lomuto's partition scheme.
+An animated visualization of the quicksort algorithm using Lomuto's partition scheme.
 
-Drawn with p5.js libray
+Drawn with p5.js library
 
 ## Screenshots
 
