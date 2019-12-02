@@ -5,16 +5,13 @@ let w = 11;
 let states = [];
 
 function setup() {
-  //create a canvas with width 800, height 200
   createCanvas(windowWidth * .95, windowHeight * .75);
-  // createCanvas(windowWidth * 2, windowHeight * 2);
-  //create an array of size 80 (800 / 10)
   values = new Array(floor(width / w));
   for (let i = 0; i < values.length; i++) {
     values[i] = random(height);
     states[i] = -1;
   }
-  // frameRate(10);
+  // frameRate(24);
   quickSort(values, 0, values.length - 1);
 }
 
@@ -97,7 +94,7 @@ function draw() {
     } else if (states[i] == 1) {
       fill('#8153ff');
       //the end of the array currently being partitioned,
-      // or the index of the random variable we chose to be the pivotValue. (orange)
+      // or the index of the random variable we chose to be the pivotValue. (blue)
     } else if (states[i] == 2) {
       fill('#53a3ff');
     }
